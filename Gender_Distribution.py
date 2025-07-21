@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-data = pd.read_csv(r"C:\Users\admin\skill craft internship\gender_data.txt")
+data = pd.read_csv("gender_data.txt")
 
 
 df = pd.DataFrame(data)
